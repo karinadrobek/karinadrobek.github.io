@@ -339,17 +339,10 @@ video
 	}
 }
 
-/* galeria */
+/*j*/
 .slideshow
-{
-	max-width: 700px;
-}
+{ max-width: 700px; }
 [data-component="slideshow"] .slide 
-{
-    display: none;
-}
-
+{ display: none; }
 [data-component="slideshow"] .slide.active 
-{
-    display: block;
-}
+{ display: block; }
