@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Historia Trondheim</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="foto/logo.png">
+        <link rel="stylesheet" type="text/css" href="style/arkusz.css">
+    </head>
+    <body>
+        <div class="website">
+            <div class="header">
+                <a href="../"><img src="../media/logo.png" alt="logo"></a>
+                Szanghaj
+            </div>
+            <div class="menu" id="myMenu">
+                <a href="../">Główna</a>
+                <a href="../o-miescie/">O mieście</a>
+                <a href="./" class="active">Historia</a>
+                <a href="../co-zwiedzic/">Co zwiedzić w Szanghaju?</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+                </a>
+            </div>
+            <div class="content">
+                <p>Pierwsze wzmianki o Szanghaju pochodzą 746 roku, kiedy było przedstawione jako miasto Qinglong. Za oficjalną datę założenia Szanghaju uznaje się rok 1553, kiedy zostało ono otoczone murami miejskimi. Do 1927 roku było częścią prowincji Jiangsu ze stolicą w Nankin. Potem miasto zostało z niego wydzielone.</p>
+                <p>W XIX wieku Europejczycy odkryli Szanghaj jako ważny port strategiczny, który może zostać rozwinięty jako ośrodek handlowy.</p>
+                <p>Szanghaj był okupowany przez Brytyjczyków podczas wojny opiumowej. W 1842 podpisano traktat w Nankinie, otiwerający Szanghaj dla międzynarodowego handlu.</p>
+                <p>Miasto było w tamtym czasie podzielone na strefy dla Chińczyków i cudzoziemców. Podczas powstania tajpingów ta pierwsza strefa została mocno zniszczona podczas okupacji miasta. Ostatecznie strefy zostałe zlikwidowane w 1864 r.</p>
+                <img id="photo" src="../media/historia/img/mapa.png">
+                <a id="desc">Niemiecka mapa Szanghaju z 1888 roku</a>
+                <p>W 1932 r. japońskie wojsko wkroczyło do miasta pod pretekstem zwalczenia powstania antyjapońskiego. Tak naprawdę Szanghaj był punktem strategicznym w ich planie podbicia Chin. Był przez nich okupowany w latach 1937-1945. W tamtym czasie przybyło do miasta wiele osób z objętej wojną Europy, głównie Żydzi.</p>
+                <video controls>
+                    <source src="../media/historia/vid/szanghaj-1937.webm" type="video/webm">
+                    Twoja przeglądarka nie może odtworzyć pliku.
+                </video>
+                <a id="desc">Film przedstawiający Szanghaj w 1937 roku</a>
+                <p>27 maja 1949 r. miasto zostało zajęte przez komunistów. Podczas rewolucji kulturalnej Mao Zedonga miasto stało się ważnym ośrodkiem przemysłowym.</p>
+                <p>Od lat 80. do 1991 roku miasto było zamknięte dla obcych kapitałów, co zahamowało jego rozwój. Potem chiński rząd zaczął promować miasto wprowadzając m. in. ulgi podatkowe, mające przyciągnąć inwestorów. Obecnie miasto konkuruje z Hong Kongiem o miano najważniejszego miasta w gospodarce ChRL.</p>
+                Więcej o historii miasta znajdziesz <a href="http://mandragon.pl/inna-historia-szanghaju/">tutaj</a>.
+                <br>
+                <br>
+                <a href="../" id="to-home"><i>Powrót do strony głównej</i></a>
+            </div>
+            <div class="footer">
+                Karina Drobek 2ta
+            </div>
+        </div>
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myMenu");
+              if (x.className === "menu") {
+                x.className += " responsive";
+              } else {
+                x.className = "menu";
+              }
+            }
+        </script>
+        <script>
+            mybutton = document.getElementById("myBtn");
+            window.onscroll = function() {scrollFunction()};
+            function scrollFunction() 
+            {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) 
+                {
+                    mybutton.style.display = "block";
+                }
+                else 
+                {
+                    mybutton.style.display = "none";
+                }
+            }
+            function topFunction() 
+            {
+                document.documentElement.scrollTop = 0;
+            }
+        </script>
+    </body>
+</html>
