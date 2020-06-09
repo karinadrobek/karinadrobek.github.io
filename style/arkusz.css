@@ -11,5 +11,18 @@ tr, th, td
 padding: 20px; background-color: white; color: white; }
 #myBtn:hover 
 { background-color: #2f1813; }
+.menu
+{
+	transition-duration: 120ms;
+	transition-property: color;
+	transition-duration: 120ms;
+	transition-property: background-color;
+	overflow: hidden;
+  	background-color: #2f1813;
+}
+
+
+
+
 #photo
 { width: 700px; height: auto; }
