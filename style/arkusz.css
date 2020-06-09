@@ -14,15 +14,15 @@ padding: 20px; background-color: white; color: white; }
 .container
 { padding-top: 5%; text-align: center; height: 60%; width: 90%; margin-left: 5%; margin-right: 5%; font-size: 30px; }
 .h2
-{ font-size: 30px; font-family: Times New Roman; font-color: black; }
+{ font-size: 10px; font-family: Times New Roman; font-color: black; }
 .container h3
-{ font-size: 20px; font-family: Times New Roman; font-color: black; }
+{ font-size: 10px; font-family: Times New Roman; font-color: black; }
 .h4
-{ font-size: 18px; font-family: Arial; font-color: black; }
+{ font-size: 10px; font-family: Arial; font-color: black; }
 .container a:link 
 { transition-property: color; color: white; text-decoration: none; }
 .content
-{ height: auto; width: 700px; margin-left: auto; margin-right: auto; margin-top: 2%; margin-bottom: 2%; word-wrap: break-word; font-size: 20px; text-align: center; }
+{ height: auto; width: 700px; margin-left: auto; margin-right: auto; margin-top: 2%; margin-bottom: 2%; word-wrap: break-word; font-size: 10px; text-align: center; }
 
 .content a:link 
 { color: #2f1813; }
