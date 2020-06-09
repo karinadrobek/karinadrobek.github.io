@@ -24,7 +24,7 @@ padding: 20px; background-color: white; color: white; }
 .container a:link 
 { transition-property: color; color: white; text-decoration: none; }
 .content
-{ height: auto; width: 600px; margin-left: 100; margin-right: 100; margin-top: 2%; margin-bottom: 2%; word-wrap: break-word; font-size: 18px; text-align: center; }
+{ height: auto; width: 600px; margin-left: auto; margin-right: auto; margin-top: 2%; margin-bottom: 2%; word-wrap: break-word; font-size: 18px; text-align: center; }
 .content a:visited 
 { color: #abbacf; }
 .content a:link 
