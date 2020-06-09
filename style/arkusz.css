@@ -79,7 +79,7 @@ padding: 20px; background-color: white; color: white; }
 }
 .container a:visited 
 {
-    color: black;
+    color: #2f1813;
     text-decoration: bold;
 }
 .container a:hover 
