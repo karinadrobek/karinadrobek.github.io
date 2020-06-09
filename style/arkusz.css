@@ -5,7 +5,7 @@ table
 tr, th, td
 { border-style: dotted; margin: 6px; text-align: center; }
 .website
-{ text-align: center; margin: 25 auto; }
+{ text-align: center; margin: 30 auto; }
 #myBtn 
 {
 	display: none;
