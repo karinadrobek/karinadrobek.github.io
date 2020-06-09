@@ -68,7 +68,7 @@ padding: 20px; background-color: white; color: white; }
 }
 .container h3
 {
-	font-size: 25px;
+	font-size: 35px;
 }
 .container a:link 
 {
@@ -80,7 +80,7 @@ padding: 20px; background-color: white; color: white; }
 .container a:visited 
 {
     color: black;
-    text-decoration: none;
+    text-decoration: bold;
 }
 .container a:hover 
 {
@@ -94,13 +94,13 @@ padding: 20px; background-color: white; color: white; }
     color: white;
     text-decoration: none;
 }
-.about-city
+.historia
 {
 	float: left;
 	width: 32%;
 	margin-top: 5%;
 }
-.history
+.turystyka
 {
     float: left;
 	width: 32%;
@@ -108,7 +108,7 @@ padding: 20px; background-color: white; color: white; }
 	margin-right: 1.995%;
 	margin-top: 5%;
 }
-.tourism
+.wiecej
 {
     float: left;
 	width: 32%;
