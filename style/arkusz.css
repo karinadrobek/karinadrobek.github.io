@@ -44,12 +44,12 @@ padding: 20px; background-color: white; color: white; }
 	transition-duration: 120ms;
 	transition-property: background-color;
 	background-color: #ddd;
-  	color: black;
+  	color: white;
 }
 .menu a.active
 {
 	
-	background-color: orangered;
+	background-color: white;
   	color: white;
 }
 .menu .icon
@@ -68,13 +68,13 @@ padding: 20px; background-color: white; color: white; }
 }
 .container h3
 {
-	font-size: 32px;
+	font-size: 25px;
 }
 .container a:link 
 {
 	transition-duration: 250ms;
 	transition-property: color;
-    color: black;
+    color: white;
     text-decoration: none;
 }
 .container a:visited 
@@ -86,12 +86,12 @@ padding: 20px; background-color: white; color: white; }
 {
 	transition-duration: 250ms;
 	transition-property: color;
-    color: orangered;
+    color: white;
     text-decoration: none;
 }
 .container a:active 
 {
-    color: orangered;
+    color: white;
     text-decoration: none;
 }
 .about-city
@@ -128,17 +128,17 @@ padding: 20px; background-color: white; color: white; }
 }
 .content a:link 
 {
-    color: orangered;
+    color: white;
     text-decoration: none;
 }
 .content a:visited 
 {
-    color: orangered;
+    color: white;
     text-decoration: none;
 }
 .content a:hover 
 {
-    color: orangered;
+    color: white;
     text-decoration: none;
 }
 .content a:active 
