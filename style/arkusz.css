@@ -1,8 +1,5 @@
 body
-{
-	margin: 0;
-	font-family: 'Ubuntu', sans-serif;
-}
+{ margin: 0; font-family: Arial;}
 table
 {
     margin-left: auto;
@@ -12,19 +9,9 @@ table
 }
 tr, th, td
 {
-    border-style: solid;
-    margin: 5px;
+    border-style: dotted;
+    margin: 6px;
     text-align: center;
-}
-audio
-{
-	width: 100%;
-	max-width: 700px;
-}
-video
-{
-	width: 100%;
-	max-width: 700px;
 }
 .website
 {   
@@ -201,6 +188,16 @@ video
     color: orangered;
     text-decoration: none;
 }
+audio
+{
+	width: 100%;
+	max-width: 700px;
+}
+video
+{
+	width: 100%;
+	max-width: 700px;
+}
 #desc
 {
     color: gray;
@@ -237,6 +234,7 @@ video
 	bottom: 0px;
 	position: relative;
 }
+
 
 /* strona responsywna */
 
