@@ -26,11 +26,6 @@ tr, th, td
 { background-color: #555; }
 #photo
 { width: 700px; height: auto; }
-.header1 { width: 100%;  height: 130px; background-color: #f6bdaf; }  		 	
-.header2 {  width: 100%;  height: 55px; text-align:center; word-spacing:10px; background-color: #f9d7cf;}
-.header3 {  width: 100%;  height: 55px; text-align:center; word-spacing:10px; color:#ffffff;}
-		.m1 {  float: left; width: 10%;  height: 1430px;   text-align:center; font-family:Arial; background-color: #f6bdaf; color:#3d4761;} 
-		.m2 {  float: left; width: 10%;  height: 1430px; text-align:center; font-family:Arial;} 
 
 .menu
 {
