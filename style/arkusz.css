@@ -11,6 +11,20 @@ tr, th, td
 padding: 20px; background-color: white; color: white; }
 #myBtn:hover 
 { background-color: #2f1813; }
+.container
+{
+	padding-top: 2%;
+	text-align: center;
+	height: 60%;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-size: 20px;
+}
+.container h3
+{
+	font-size: 35px;
+}
 .menu
 {
 	transition-duration: 120ms;
