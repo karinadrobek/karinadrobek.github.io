@@ -49,13 +49,11 @@ padding: 20px; background-color: white; color: white; }
 }
 .menu a
 {
-	transition-duration: 120ms;
 	transition-property: color;
-	transition-duration: 120ms;
 	transition-property: background-color;
 	float: left;
   	display: block;
-  	color: #2f1813;
+  	color: #84b5c2;
   	text-align: center;
   	padding: 14px 16px;
   	text-decoration: none;
@@ -63,11 +61,9 @@ padding: 20px; background-color: white; color: white; }
 }
 .menu a:hover
 {
-	transition-duration: 120ms;
 	transition-property: color;
-	transition-duration: 120ms;
 	transition-property: background-color;
-	background-color: #ddd;
+	background-color: white;
   	color: white;
 }
 .menu a.active
