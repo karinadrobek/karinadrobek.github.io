@@ -1,0 +1,369 @@
+body
+{
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+}
+table
+{
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-collapse: collapse;
+}
+tr, th, td
+{
+    border-style: solid;
+    margin: 5px;
+    text-align: center;
+}
+audio
+{
+	width: 100%;
+	max-width: 700px;
+}
+video
+{
+	width: 100%;
+	max-width: 700px;
+}
+.website
+{   
+	text-align: center;
+	margin: 0 auto;
+}
+#myBtn 
+{
+	display: none;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	z-index: 99;
+	border: none;
+	outline: none;
+	background-color: orangered;
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 10px;
+	font-size: 18px;
+}
+#myBtn:hover 
+{
+	background-color: #555;
+}
+#photo
+{
+	width: 700px;
+	height: auto;
+}
+
+.header
+{
+	text-align: center;
+	height: 8%;
+	width: 100%;
+	font-size: 60px;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	background-color: #101111;
+	color: #FFFFFF;
+	font-family: 'Comfortaa', cursive;
+}
+.menu
+{
+	transition-duration: 120ms;
+	transition-property: color;
+	transition-duration: 120ms;
+	transition-property: background-color;
+	overflow: hidden;
+  	background-color: #101111;
+}
+.menu a
+{
+	transition-duration: 120ms;
+	transition-property: color;
+	transition-duration: 120ms;
+	transition-property: background-color;
+	float: left;
+  	display: block;
+  	color: #f2f2f2;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+  	font-size: 17px;
+}
+.menu a:hover
+{
+	transition-duration: 120ms;
+	transition-property: color;
+	transition-duration: 120ms;
+	transition-property: background-color;
+	background-color: #ddd;
+  	color: black;
+}
+.menu a.active
+{
+	
+	background-color: orangered;
+  	color: white;
+}
+.menu .icon
+{
+	display: none;
+}
+.container
+{
+	padding-top: 2%;
+	text-align: center;
+	height: 60%;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	font-size: 20px;
+}
+.container h3
+{
+	font-size: 32px;
+}
+.container a:link 
+{
+	transition-duration: 250ms;
+	transition-property: color;
+    color: black;
+    text-decoration: none;
+}
+.container a:visited 
+{
+    color: black;
+    text-decoration: none;
+}
+.container a:hover 
+{
+	transition-duration: 250ms;
+	transition-property: color;
+    color: orangered;
+    text-decoration: none;
+}
+.container a:active 
+{
+    color: orangered;
+    text-decoration: none;
+}
+.about-city
+{
+	float: left;
+	width: 32%;
+	margin-top: 5%;
+}
+.history
+{
+    float: left;
+	width: 32%;
+	margin-left: 1.995%;
+	margin-right: 1.995%;
+	margin-top: 5%;
+}
+.tourism
+{
+    float: left;
+	width: 32%;
+	margin-top: 5%;
+}
+.content
+{
+	height: auto;
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	word-wrap: break-word;
+	font-size: 20px;
+	text-align: left;
+}
+.content a:link 
+{
+    color: orangered;
+    text-decoration: none;
+}
+.content a:visited 
+{
+    color: orangered;
+    text-decoration: none;
+}
+.content a:hover 
+{
+    color: orangered;
+    text-decoration: none;
+}
+.content a:active 
+{
+    color: orangered;
+    text-decoration: none;
+}
+#desc
+{
+    color: gray;
+	text-decoration: none;
+	font-size: 15px;
+}
+#to-home
+{
+	font-size: 15px;
+}
+.footer_home
+{
+	text-align: center;
+	height: 7%;
+	width: 100%;
+	background-color: #101111;
+	color: #FFFFFF;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	font-size: 18px;
+	bottom: 0px;
+	position: absolute;
+}
+.footer
+{
+	text-align: center;
+	height: 7%;
+	width: 100%;
+	background-color: #101111;
+	color: #FFFFFF;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	font-size: 18px;
+	bottom: 0px;
+	position: relative;
+}
+
+/* strona responsywna */
+
+@media screen and (max-width: 600px) {
+	.menu a:not(:first-child) {display: none;}
+	.menu a.icon {
+	  float: right;
+	  display: block;
+	}
+  }
+  
+  @media screen and (max-width: 600px) {
+	.menu.responsive {position: relative;}
+	.menu.responsive .icon {
+	  position: absolute;
+	  right: 0;
+	  top: 0;
+	}
+	.menu.responsive a {
+	  float: none;
+	  display: block;
+	  text-align: left;
+	}
+  }
+@media screen and (max-width: 900px)
+{
+	iframe
+	{
+		max-width: 700px;
+		width: 100%;
+	}
+	.menu
+	{
+		margin-bottom: 5.8%;
+	}
+	#photo
+	{
+		max-width: 700px;
+		width: 100%;
+		height: auto;
+	}
+	.header
+	{
+		font-size: 40px;
+		padding-top: 5%;
+		padding-bottom: 5%;
+	}
+	.container
+	{
+		max-width: 700px;
+		text-align: center;
+		height: auto;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		font-size: 20px;
+		display: inline-block;
+		padding-bottom: 2%;
+	}
+	.about-city
+	{
+		max-width: 700px;
+		width: 100%;
+		margin-top: 0px;
+	}
+	.history
+	{
+		max-width: 700px;
+		width: 100%;
+		margin-left: 0px;
+		margin-left: 0px;
+		margin-top: 0px;
+	}
+	.tourism
+	{
+		max-width: 700px;
+		width: 100%;
+		margin-top: 0px;
+	}
+	.footer_home
+	{
+		position: relative;
+		bottom: 0px;
+		display: inline-block;
+		margin-top: 12% !important;
+	}
+	.footer
+	{
+		position: relative;
+		bottom: 0px;
+		display: inline-block;
+	}
+	.content
+	{
+		max-width: 700px;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+}
+@media screen and (max-width: 700px)
+{
+	.menu
+	{
+		margin-bottom: 0%;
+	}
+	.footer_home
+	{
+		margin-top: 0%;
+	}
+}
+
+/* galeria */
+.slideshow
+{
+	max-width: 700px;
+}
+[data-component="slideshow"] .slide 
+{
+    display: none;
+}
+
+[data-component="slideshow"] .slide.active 
+{
+    display: block;
+}
