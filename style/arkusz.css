@@ -38,8 +38,6 @@ padding: 20px; background-color: white; color: white; }
 }
 .menu a
 {
-	transition-property: color;
-	transition-property: background-color;
 	float: left;
   	display: block;
   	color: #84b5c2;
@@ -50,14 +48,11 @@ padding: 20px; background-color: white; color: white; }
 }
 .menu a:hover
 {
-	transition-property: color;
-	transition-property: background-color;
 	background-color: white;
   	color: white;
 }
 .menu a.active
 {
-	
 	background-color: white;
   	color: white;
 }
