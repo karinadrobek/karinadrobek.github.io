@@ -37,6 +37,9 @@ padding: 20px; background-color: white; color: white; }
 .content a:active 
 { color: white; }
 
+
+                .gallery{margin:10px 50px; }
+                .gallery img{width:230px; padding: 5px;}
 .menu
 {
 	transition-property: color;
