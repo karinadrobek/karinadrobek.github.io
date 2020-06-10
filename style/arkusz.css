@@ -28,14 +28,14 @@ padding: 20px; background-color: white; color: white; }
 .content a:visited 
 { color: #abbacf; }
 .content a:link 
-{ color: #abbacf; }
+{ color: white; }
 .p
 { font-family:Arial;  text-align:center; font-family:Arial; padding-left:30px;padding-right:10px;color:#2f1813;}
 
 .content a:hover 
 { color: black; }
 .content a:active 
-{ color: #abbacf; }
+{ color: white; }
 
 .menu
 {
