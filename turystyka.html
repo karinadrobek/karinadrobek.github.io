@@ -10,7 +10,7 @@
     <body>
     <div class="website">
 	<a href="./"><img src="foto/logo.png" alt="logo" width="60px" height="60px"></a>
-	<h3>Trondheim - turystyka</h3>
+	<h2>TRONDHEIM - turystyka</h2>
         </div>
         <div class="website">
         <div class="menu" id="myMenu">
@@ -58,6 +58,14 @@
             <div class="footer">
                 Karina Drobek 2ta
             </div>
-        </div>
+	  </div>
+	  <script>
+          function myFunction() {
+             var x = document.getElementById("myMenu");
+             if (x.className === "menu") {
+                 x.className += " responsive";} 
+             else { x.className = "menu";}
+           }
+           </script>
     </body>
 </html>
