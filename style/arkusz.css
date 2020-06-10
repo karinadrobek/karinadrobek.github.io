@@ -33,7 +33,7 @@ padding: 20px; background-color: white; color: white; }
 { font-family:Arial;  text-align:center; font-family:Arial; padding-left:30px;padding-right:10px;color:#2f1813;}
 
 .content a:hover 
-{ color: white; }
+{ color: black; }
 .content a:active 
 { color: #abbacf; }
 
@@ -62,7 +62,7 @@ padding: 20px; background-color: white; color: white; }
 .menu a.active
 {
 	background-color: black;
-  	color: black;
+  	color: white;
 }
 .menu .icon
 {
