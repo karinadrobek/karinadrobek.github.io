@@ -61,8 +61,8 @@ padding: 20px; background-color: white; color: white; }
 }
 .menu a.active
 {
-	background-color: white;
-  	color: white;
+	background-color: black;
+  	color: black;
 }
 .menu .icon
 {
