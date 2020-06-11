@@ -148,15 +148,6 @@ tr, th, td
 }
 
 
-/*responsywność z programowanie*/
 
-/*najwieksza rozdzielczosc laptopów*/
-@media only screen and (max-width: 1000px) {
-    #prawe_menu { display: block; }
-}
-/*średni telefon lub IPad*/
-@media only screen and (max-width: 680px) {
-    #prawe_menu { display: none; }
-}
 
 
