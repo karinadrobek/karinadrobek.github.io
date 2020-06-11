@@ -158,9 +158,5 @@ tr, th, td
 @media only screen and (max-width: 680px) {
     #prawe_menu { display: none; }
 }
-img{
-    max-width: 100%;
-    height: auto;
-    width: auto;
-}
+
 
