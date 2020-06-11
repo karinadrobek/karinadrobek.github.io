@@ -56,21 +56,6 @@
                     <a href="foto/zabytek3.jpg"><img style="width: 200px; height: 148px;" src="foto/zabytek3.jpg" alt="zabytek3"></a>
                     <a href="foto/zabytek4.jpg"><img style="width: 200px; height: 148px;" src="foto/zabytek4.jpg" alt="zabytek4"></a>
 		    </div>
-		    <script>
-var myIndex = 0;
-carousel();
-
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 2000);
-}</script>
 		
 			    <!-- Slideshow container -->
 <div class="slideshow-container">
@@ -106,7 +91,8 @@ function carousel() {
   <span class="dot" onclick="currentSlide(2)"></span>
   <span class="dot" onclick="currentSlide(3)"></span>
 </div>
-		    var slideIndex = 1;
+	<script>
+ var slideIndex = 1;
 showSlides(slideIndex);
 
 // Next/previous controls
@@ -118,7 +104,6 @@ function plusSlides(n) {
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
-
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
@@ -133,7 +118,7 @@ function showSlides(n) {
   }
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
-}
+			      }</script>
 		    
 		    
 		    
